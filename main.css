@@ -1,0 +1,41 @@
+body{
+    font-family: "微軟正黑體";  /*將字體改為微軟正黑體*/
+    background-color: rgb(57, 85, 107); /*設定背景顏色*/
+    color: white; /*設定文字顏色*/
+    margin: 0px; /*設定邊界為0*/
+}
+.top{
+    width: 100%; /*寬度為螢幕的100%*/
+    margin: 0px; 
+    top: 0px; /*距離最上面0px*/
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+}
+.top h1{
+    margin: 10px 20px; /*邊界上下10px 左右20px*/
+}
+.main{
+    border: black solid 3px;
+    margin: 80px 20px;
+    font-size: 20px;
+    height: 1500px;
+    position: relative;
+}
+.picture{
+    position: absolute;
+    right: 10px;
+}
+.left{
+    width: 200px;
+    margin: 0px 20px;
+    height: inherit;
+    position: relative;
+    border-right: black solid 2px;
+    float: left;
+}
+.left a:link{
+    color: white;
+}
+.left a:visited{
+    color: rgb(196, 194, 194);
+}
